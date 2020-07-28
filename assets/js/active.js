@@ -2,6 +2,15 @@
   'use strict';
 
   jQuery(document).ready(function ($) {
+    /*==============================
+      Slick Nav
+    ================================*/
+    var $ourmenu = $('#ourmenu');
+    $ourmenu.slicknav();
+
+    /*==============================
+      password strength meter script
+    ================================*/
     var strength = {
       0: 'Worst ☹',
       1: 'Bad ☹',

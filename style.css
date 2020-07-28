@@ -193,8 +193,7 @@ p {
 .banner-area {
   position: relative;
   z-index: 1;
-  background: url('assets/img/banner-bg.png') no-repeat scroll left center /
-    100%;
+  background: url('assets/img/banner-bg.png') no-repeat scroll left center / 100%;
   padding-top: 250px;
   padding-bottom: 200px;
 }
@@ -320,6 +319,7 @@ p {
 
 .single-pricing-box {
   background: #8fbee6;
+  margin: 15px 0;
   padding: 30px 20px;
   text-align: center;
   border-radius: 5px;
@@ -360,9 +360,11 @@ p {
   text-transform: uppercase;
   font-weight: 600;
 }
+
 .boxed-btn:hover {
   color: #fff;
 }
+
 .pricing-btn {
   margin-top: 50px;
 }
@@ -655,9 +657,11 @@ body.colored {
 .signin-form-area h3 a {
   color: #666;
 }
+
 .signin-form-area {
   padding: 50px 0;
 }
+
 /* Sign in form End */
 
 /* sign up form start */
@@ -685,12 +689,15 @@ meter::-webkit-meter-bar {
 meter[value='1']::-webkit-meter-optimum-value {
   background: red;
 }
+
 meter[value='2']::-webkit-meter-optimum-value {
   background: yellow;
 }
+
 meter[value='3']::-webkit-meter-optimum-value {
   background: orange;
 }
+
 meter[value='4']::-webkit-meter-optimum-value {
   background: green;
 }
@@ -698,12 +705,15 @@ meter[value='4']::-webkit-meter-optimum-value {
 meter[value='1']::-moz-meter-bar {
   background: red;
 }
+
 meter[value='2']::-moz-meter-bar {
   background: yellow;
 }
+
 meter[value='3']::-moz-meter-bar {
   background: orange;
 }
+
 meter[value='4']::-moz-meter-bar {
   background: green;
 }
@@ -767,6 +777,7 @@ meter[value='4']::-moz-meter-bar {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
 }
+
 .signup-title h3 {
   text-transform: capitalize;
 }
@@ -780,6 +791,7 @@ meter[value='4']::-moz-meter-bar {
   font-size: 18px;
   color: #666;
 }
+
 .signintext a {
   color: #666;
 }
@@ -787,6 +799,7 @@ meter[value='4']::-moz-meter-bar {
 .mailing-list-area {
   margin-bottom: 60px;
 }
+
 .mailing-list {
   margin-top: -180px;
   position: relative;
@@ -801,9 +814,11 @@ meter[value='4']::-moz-meter-bar {
 .mailing-list .boxed-btn {
   margin-top: 40px;
 }
+
 .feedback {
   color: #333;
 }
+
 .single-signup-item h4 {
   position: relative;
   z-index: 1;
@@ -819,6 +834,7 @@ meter[value='4']::-moz-meter-bar {
   background: #000;
   z-index: -1;
 }
+
 .single-signup-item .boxed-btn {
   margin-top: 100px;
 }
@@ -860,6 +876,7 @@ meter[value='4']::-moz-meter-bar {
   line-height: 21px;
   border-radius: 20px;
 }
+
 /* sign up form end */
 
 /*  404 page css */
@@ -895,14 +912,17 @@ meter[value='4']::-moz-meter-bar {
   color: #000;
   padding: 0px 12px;
   border-right: 1px solid #ddd;
+  text-transform: capitalize;
 }
 
 .no-found-area li:last-child a {
   border: none;
 }
+
 .no-found-area .boxed-btn {
   margin-top: 50px;
 }
+
 /* 404 page css end */
 
 /* cloud page css start */
@@ -914,16 +934,20 @@ meter[value='4']::-moz-meter-bar {
   z-index: 1;
   margin: 0 auto;
 }
+
 .banner-area.cloud-page {
   padding: 250px 0 200px;
 }
+
 .cloud-trial {
   position: relative;
   z-index: 3;
 }
+
 .cloud-page .border-btn {
   padding: 10px 40px;
 }
+
 /* cloud page css end */
 
 /* Cloud Pricing area CSS Start */
@@ -932,6 +956,7 @@ meter[value='4']::-moz-meter-bar {
   width: 31%;
   margin: 0 1%;
 }
+
 .cloud-single-pricing-wrap {
   background: #8fbee6;
   width: 100%;
@@ -957,6 +982,7 @@ meter[value='4']::-moz-meter-bar {
   border-top-left-radius: 50px;
   margin-left: 10px;
 }
+
 .nav.nav-tabs a:first-child {
   margin-left: 0;
   margin-right: 10px;
@@ -968,6 +994,7 @@ meter[value='4']::-moz-meter-bar {
 .nav.nav-tabs a.active {
   background-color: #11122e;
 }
+
 /* Cloud Pricing area CSS End */
 
 /* cloud pricing bottom css stat */
@@ -1007,6 +1034,7 @@ section.pricing-bottom {
   width: 300px;
   margin: 20px 0;
 }
+
 /* cloud pricing bottom css end */
 
 /* CLoud feature CSS Start */
@@ -1014,6 +1042,7 @@ section.pricing-bottom {
   background: #11122e;
   padding: 100px 0;
 }
+
 .single-cloud-feature {
   color: #fff;
   padding: 30px 0;
@@ -1038,6 +1067,7 @@ section.pricing-bottom {
 .cloud-feature2 .row {
   margin: 30px 0;
 }
+
 /* CLoud feature CSS End  */
 
 /* microsoft banner css Start */
@@ -1050,15 +1080,18 @@ section.pricing-bottom {
   height: 500px;
   margin: 0 auto;
 }
+
 .mt-200 {
   margin-top: 200px;
 }
+
 /* microsoft banner css End */
 
 /* Microsoft Pricing */
 .cloud-single-pricing-wrap.color2 {
   background-color: #11122f;
 }
+
 .single-pricing-box.cloude-pricing h3 span {
   display: block;
   font-size: 75%;
@@ -1121,21 +1154,38 @@ section.pricing-bottom {
   height: 100%;
   background: #666;
 }
+
 .dark-blue-color .col-md-4:last-child::after {
   display: none;
 }
+
 .home-page .single-support-app p {
   color: #11122f;
   font-size: 18px;
 }
+
 .home-page .single-support-app img {
   max-width: 120px;
   height: 120px;
   object-fit: cover;
 }
+
 .home-page .single-support-app {
   padding: 0 50px;
 }
+
 .home-page.section-padding {
   padding: 100px 0;
+}
+
+
+/* Slick Nav */
+.slicknav_menu {
+  display: none;
+  border-bottom: 0px;
+}
+
+.slicknav_menu li a {
+  text-transform: uppercase;
+  font-size: 18px;
 }

@@ -1,6 +1,8 @@
 /*	Medium Layout: 1280px	*/
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-	/* css */
+	.single-pricing-box h3 {
+		font-size: 28px;
+	}
 
 }
 
@@ -9,7 +11,51 @@
 /*		Tablet Layout: 768px.       */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-	/* css */
+
+
+
+	.header-right {
+		width: 100%;
+	}
+
+	.logo img {
+		max-width: 120px;
+	}
+
+	.logo p {
+		font-size: 16px;
+	}
+
+	.main-menu li a {
+		padding: 10px;
+		margin: 5px 0;
+	}
+
+	.main-menu {
+		margin-top: 0;
+		text-align: left;
+	}
+
+	.banner-right-img {
+		bottom: 0;
+	}
+
+	.section-padding.pricing-area {
+		padding-left: 0;
+		padding-right: 0;
+		padding-top: 50px;
+	}
+
+	.microsoft-banner-bottom-img {
+		height: 500px;
+		top: 500px;
+		width: 500px;
+		left: 250px;
+	}
+
+	.support-apps-area {
+		padding: 0;
+	}
 
 }
 
@@ -19,7 +65,20 @@
 /*		Tablet and Mobile Layout         */
 @media only screen and (max-width: 991px) {
 
-	/* css */
+	.signup-social {
+		position: relative;
+		top: 0;
+		left: 0;
+		padding: 0 20px;
+	}
+
+	.signup-social a {
+		width: auto;
+		display: block;
+		height: auto;
+		margin-bottom: 10px;
+		margin-right: 0;
+	}
 
 }
 
@@ -28,7 +87,195 @@
 
 @media only screen and (max-width: 767px) {
 
-	/* css */
+	.slicknav_menu {
+		display: block;
+	}
+
+	#ourmenu {
+		display: none;
+	}
+
+	.logo {
+		width: 120px;
+	}
+
+	.logo p {
+		font-size: 20px;
+	}
+
+	.header-right {
+		position: relative;
+		width: 50%;
+		float: right;
+		margin-top: -100px;
+	}
+
+	.header-area .col-md-7 {
+		display: none;
+	}
+
+	.banner-text h1 {
+		font-size: 34px;
+	}
+
+	.banner-area {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
+	.header-area {
+		position: relative;
+	}
+
+	.logo img {
+		max-width: 120px;
+	}
+
+	.banner-text {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+	.banner-right-img {
+		bottom: -50px;
+	}
+
+	.section-padding {
+		padding: 50px 0;
+	}
+
+	.section-padding.pricing-area {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.why-with-us-area h2 {
+		font-size: 40px;
+		text-align: center;
+	}
+
+	.home-page .single-support-app {
+		margin: 0;
+	}
+
+	.single-footer-item {
+		padding: 10px 0;
+	}
+
+	.banner-area.domain-page::before {
+		display: none;
+	}
+
+	.banner-area.domain-page::after {
+		display: none;
+	}
+
+	.domain-page .banner-text h1 {
+		font-size: 25px;
+	}
+
+	.banner-btn-text input {
+		width: auto;
+	}
+
+	.banner-btn-text input[type='submit'] {
+		width: auto;
+		right: auto;
+	}
+
+	.banner-area.domain-page {
+		background-size: cover;
+	}
+
+	.banner-btn-text form {
+		width: auto;
+	}
+
+	.banner-area.cloud-page {
+		padding: 50px 0;
+	}
+
+	.cloud-page .banner-text h1 {
+		font-size: 25px;
+	}
+
+	.cloud-trial.text-right {
+		text-align: center !important;
+	}
+
+	.section-title h2 {
+		font-size: 40px;
+	}
+
+	.nav.nav-tabs a:first-child,
+	.nav.nav-tabs a:last-child {
+		font-size: 20px;
+	}
+
+	.single-pricing-box.cloude-pricing {
+		float: none;
+		width: auto;
+	}
+
+	.cloud-btm h2 {
+		font-size: 40px;
+	}
+
+	.single-cloud-feature {
+		padding: 15px 0;
+	}
+
+	.cloud-feature2 h2 {
+		font-size: 34px;
+	}
+
+	.microsoft-banner-bottom-img {
+		height: auto;
+		top: 230px;
+		left: 0;
+		width: auto;
+	}
+
+	.dark-blue-color {
+		padding: 0;
+	}
+
+	.support-apps-area {
+		margin-top: -53px;
+		padding: 0;
+	}
+
+	.dark-blue-color .col-md-4::after {
+		display: none;
+	}
+
+	.signintext {
+		text-align: center;
+	}
+
+
+
+	.single-signup-item {
+		padding: 30px 0;
+	}
+
+	.signup-form-area::after {
+		height: 100%;
+	}
+
+	.mailing-list {
+		margin-top: 30px;
+	}
+
+	.breadcrumb-area .logo,
+	.breadcrumb-area .logo img {
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.single-signup-item .boxed-btn {
+		margin-top: 0;
+	}
 
 }
 
@@ -38,7 +285,14 @@
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 
-	/* css */
+	.microsoft-banner-bottom-img {
+		height: auto;
+		top: 230px;
+		left: 0;
+		width: auto;
+	}
+
+
 
 }
 
