@@ -1,0 +1,1141 @@
+/*=================================
+Author: Md Saifur Rahman
+Updated: 26 July, 2020
+Notes: Hand Coded for Fiverr.com
+===================================*/
+
+/*------Start Base CSS------*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'MyriadPro-Regular';
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  border: none;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+a:focus {
+  color: #333;
+  text-decoration: none;
+}
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+  outline: 0 solid;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 15px;
+  margin-top: 0;
+  font-family: 'MyriadPro-Bold';
+}
+
+p {
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.float_left {
+  float: left;
+}
+
+.float_right {
+  float: right;
+}
+
+.fix:before,
+.fix:after {
+  content: '';
+  display: table;
+}
+
+.fix:after {
+  clear: both;
+}
+
+.section-padding {
+  padding: 100px 0;
+}
+
+.section-title h2 {
+  font-size: 55px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.section-title {
+  margin-bottom: 40px;
+}
+
+/*------End Base CSS------*/
+
+/* Header CSS Start */
+.logo img {
+  max-width: 200px;
+  margin-bottom: 5px;
+}
+
+.logo a {
+  display: block;
+  color: #11122f;
+  font-size: 22px;
+  text-align: center;
+}
+
+.main-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-menu li {
+  display: inline-block;
+}
+
+.main-menu li a {
+  display: block;
+  padding: 10px 15px;
+  color: #333;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.main-menu li a:hover,
+.main-menu li.active a {
+  background: #11122e;
+  color: #fff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.main-menu {
+  margin-top: 60px;
+}
+
+.header-right-top a {
+  color: #333;
+  text-transform: capitalize;
+  font-size: 16px;
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.header-right-top a:hover {
+  color: #11122e;
+}
+
+.header-right-top i {
+  display: inline-block;
+  background: #8fbee6;
+  padding: 3px 6px;
+}
+
+.header-right-bottom {
+  background: #8fbee6;
+  display: block;
+  padding: 10px 15px;
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.header-right-bottom a {
+  color: #11122f;
+}
+
+.header-area {
+  padding: 30px 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+.header-right {
+  position: absolute;
+  right: 0;
+  width: 75%;
+}
+
+/* Header CSS End */
+
+/* Banner CSS Start */
+.banner-area {
+  position: relative;
+  z-index: 1;
+  background: url('assets/img/banner-bg.png') no-repeat scroll left center /
+    100%;
+  padding-top: 250px;
+  padding-bottom: 200px;
+}
+
+.banner-area.domain-page::before {
+  position: absolute;
+  content: '';
+  left: -24px;
+  bottom: -60px;
+  width: 600px;
+  height: 500px;
+  background: url('assets/img/desktop1.png') no-repeat scroll left center / 100%;
+  z-index: -1;
+}
+
+.banner-area.domain-page::after {
+  position: absolute;
+  content: '';
+  right: 0px;
+  bottom: -60px;
+  width: 600px;
+  height: 500px;
+  background: url('assets/img/desktop2.png') no-repeat scroll left center / 100%;
+  z-index: -1;
+}
+
+.banner-text {
+  position: relative;
+  z-index: 2;
+}
+
+.banner-text h1 {
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.border-btn {
+  border: 2px solid #333;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: #11122e;
+  background: #fff;
+  font-weight: 600;
+}
+
+.border-btn:hover {
+  color: #f1d500;
+  background-color: #11122e;
+}
+
+.banner-btn-text p {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.banner-btn-text {
+  margin-top: 50px;
+}
+
+.banner-right-img {
+  position: absolute;
+  right: 0;
+  bottom: -100px;
+  width: 50%;
+  z-index: 1;
+}
+
+.banner-left-img {
+  position: absolute;
+  left: 0;
+  bottom: -100px;
+  width: 50%;
+  z-index: 1;
+}
+
+.banner-area.domain-page .banner-left-img {
+  left: -26px;
+}
+
+.banner-area.domain-page .banner-right-img {
+  right: -45px;
+}
+
+.banner-btn-text form {
+  position: relative;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.banner-btn-text input {
+  width: 100%;
+  border: none;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+  display: inline-block;
+  padding: 10px;
+}
+
+.banner-btn-text input[type='submit'] {
+  width: 100px;
+  background: #8fbee6;
+  color: #11122f;
+  padding: 10px 15px;
+  font-weight: 600;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Banner CSS End */
+
+/* Pricing Area CSS Start */
+
+.section-padding.pricing-area {
+  padding-top: 150px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.single-pricing-box {
+  background: #8fbee6;
+  padding: 30px 20px;
+  text-align: center;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.single-pricing-box ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.single-pricing-box h3 {
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #11122f;
+  margin-bottom: 40px;
+}
+
+.single-pricing-box li {
+  display: block;
+  font-size: 18px;
+  line-height: 1.6;
+  text-transform: capitalize;
+  color: #11122f;
+}
+
+.boxed-btn {
+  background: #11122e;
+  display: inline-block;
+  padding: 12px 20px;
+  border-radius: 5px;
+  color: #f1d500;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.boxed-btn:hover {
+  color: #fff;
+}
+.pricing-btn {
+  margin-top: 50px;
+}
+
+/* Pricing Area CSS End */
+
+/* Why choose Us Area CSS Start */
+.why-with-us-area h2 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #11122f;
+  text-transform: uppercase;
+}
+
+.why-with-us-area {
+  background: #e6e6e6;
+  padding: 30px 0;
+  position: relative;
+  z-index: 1;
+  margin: 100px 0;
+}
+
+.why-with-us-area::before {
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 0;
+  width: 400px;
+  height: 800px;
+  background: url('assets/img/cloud-3.png') no-repeat scroll left center / cover;
+  z-index: -1;
+  margin-top: -200px;
+}
+
+.why-img {
+  width: 40px;
+  height: 40px;
+  background: #8fbee6;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.single-why-item {
+  position: relative;
+  z-index: 1;
+  margin: 20px 0;
+}
+
+.why-text {
+  padding-left: 60px;
+}
+
+/* Why choose Us Area CSS End */
+
+/* Support Apps Area CSS Start */
+
+.support-app-text {
+  margin-top: 15px;
+  font-size: 19px;
+}
+
+.single-support-app {
+  margin: 25px 0;
+}
+
+/* Support Apps Area CSS End */
+
+/* Footer Area CSS Start */
+.footer-top-area {
+  background-color: #11122e;
+  border-top: 10px solid #8fbee6;
+  position: relative;
+  z-index: 1;
+}
+
+.footer-top-area::after {
+  position: absolute;
+  content: '';
+  right: 0;
+  bottom: 0;
+  width: 500px;
+  height: 80%;
+  background: url('assets/img/footer.png') no-repeat scroll 0 0 / contain;
+  z-index: -1;
+}
+
+.footer-top-area,
+.footer-top-area a {
+  color: #fff;
+}
+
+.footer-top-area h3 {
+  color: #8fbee6;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.single-footer-item ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.single-footer-item li {
+  display: block;
+}
+
+.single-footer-item li a {
+  display: block;
+  text-transform: capitalize;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.single-footer-item li a:hover {
+  color: #8fbee6;
+}
+
+.footer-area {
+  background: #8fbee6;
+  padding: 15px 0;
+}
+
+.footer-area p {
+  margin: 0;
+}
+
+.footer-area,
+.footer-area a {
+  color: #333;
+}
+
+.footer-area a:hover {
+  color: #11122f;
+}
+
+.single-footer-item.socials li {
+  display: inline-block;
+}
+
+.single-footer-item.socials li a {
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  text-align: center;
+  color: #333;
+  border-radius: 50%;
+  line-height: 40px;
+  margin: 5px 7px;
+}
+
+.single-footer-item.socials li a:hover {
+  background-color: #f1d500;
+  color: #fff;
+}
+
+/* Footer Area CSS End */
+
+/* Domain List CSS Start */
+.single-domain-list {
+  background: #11122e;
+  color: #8fbfe6;
+  padding: 5px 5px 15px;
+  margin: 15px 0;
+  border-radius: 10px;
+}
+
+.domain-name {
+  background: #8fbee6;
+  padding: 5px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.domain-name h4 {
+  margin: 0;
+  font-size: 30px;
+  color: #000;
+}
+
+p.domain-price {
+  color: #f2d600;
+  font-weight: 600;
+}
+
+/* Domain List CSS End */
+
+body.colored {
+  background-color: #8fbee6;
+}
+
+/* Sign in form Start */
+.signin-logo-wrap {
+  background: #000032;
+}
+
+.signin-form-box {
+  background: #f1d500;
+}
+
+.signin-form-box ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.signin-logo-wrap.d-table {
+  width: 50%;
+  height: 500px;
+  float: left;
+}
+
+.signin-logo.d-table-cell {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.signin-form-box {
+  float: left;
+  width: 50%;
+  height: 500px;
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.signin-form-box label {
+  text-transform: capitalize;
+  display: block;
+  color: #000;
+}
+
+.signin-form-box input {
+  width: 100%;
+  display: block;
+  border: none;
+  background: #fff;
+  padding: 10px 12px;
+  border-radius: 5px;
+  margin: 15px 0;
+}
+
+.signin-form-box input[type='submit'] {
+  width: auto;
+  float: right;
+  background: #0f102e;
+  color: #fff;
+}
+
+.signin-social {
+  display: block;
+  margin-top: 100px;
+}
+
+.signin-social li {
+  display: inline-block;
+}
+
+.signin-social li a {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  text-align: center;
+  line-height: 30px;
+  color: #000;
+  border-radius: 50%;
+  font-size: 15px;
+  padding-top: 2px;
+  margin: 0 5px;
+}
+
+.signin-social li a:hover {
+  background-color: #0f102e;
+  color: #fff;
+}
+
+.signin-form-area h3 {
+  font-size: 24px;
+  color: #0f102e;
+  text-align: center;
+  text-transform: capitalize;
+  margin: 15px 0;
+}
+
+.signin-form-area h3 a {
+  color: #666;
+}
+.signin-form-area {
+  padding: 50px 0;
+}
+/* Sign in form End */
+
+/* sign up form start */
+
+meter {
+  /* Reset the default appearance */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  margin: 0 auto 1em;
+  width: 100%;
+  height: 0.5em;
+
+  /* Applicable only to Firefox */
+  background: none;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+meter::-webkit-meter-bar {
+  background: none;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+meter[value='1']::-webkit-meter-optimum-value {
+  background: red;
+}
+meter[value='2']::-webkit-meter-optimum-value {
+  background: yellow;
+}
+meter[value='3']::-webkit-meter-optimum-value {
+  background: orange;
+}
+meter[value='4']::-webkit-meter-optimum-value {
+  background: green;
+}
+
+meter[value='1']::-moz-meter-bar {
+  background: red;
+}
+meter[value='2']::-moz-meter-bar {
+  background: yellow;
+}
+meter[value='3']::-moz-meter-bar {
+  background: orange;
+}
+meter[value='4']::-moz-meter-bar {
+  background: green;
+}
+
+.feedback {
+  color: #9ab;
+  font-size: 90%;
+  padding: 0 0.25em;
+  font-family: Courgette, cursive;
+  margin-top: 1em;
+}
+
+.signup-form-area {
+  position: relative;
+  z-index: 1;
+  padding: 30px 0;
+}
+
+.signup-form-area::after {
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 60%;
+  background: #8fbee6;
+  z-index: -1;
+}
+
+.single-signup-item h4 {
+  font-size: 21px;
+  text-transform: capitalize;
+  color: #11122f;
+  font-weight: 300;
+}
+
+.single-signup-item input {
+  width: 100%;
+  border: none;
+  padding: 6px;
+  margin: 9px 0;
+  border: 1px solid #999fb2;
+  border-radius: 5px;
+}
+
+.single-signup-item select {
+  width: 40%;
+  border: none;
+  padding: 7px 6px;
+  float: left;
+  border-right: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.single-signup-item input[type='tel'] {
+  float: left;
+  width: 60%;
+  margin-top: 0px;
+  border-left: none;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.signup-title h3 {
+  text-transform: capitalize;
+}
+
+.signup-wrap {
+  padding-top: 50px;
+}
+
+.signintext {
+  text-transform: capitalize;
+  font-size: 18px;
+  color: #666;
+}
+.signintext a {
+  color: #666;
+}
+
+.mailing-list-area {
+  margin-bottom: 60px;
+}
+.mailing-list {
+  margin-top: -180px;
+  position: relative;
+  z-index: 9;
+}
+
+.mailing-list .border-btn {
+  padding: 10px 50px;
+}
+
+.mailing-list .border-btn,
+.mailing-list .boxed-btn {
+  margin-top: 40px;
+}
+.feedback {
+  color: #333;
+}
+.single-signup-item h4 {
+  position: relative;
+  z-index: 1;
+}
+
+.single-signup-item h4::after {
+  position: absolute;
+  content: '';
+  right: 0;
+  top: 12px;
+  width: 70px;
+  height: 1px;
+  background: #000;
+  z-index: -1;
+}
+.single-signup-item .boxed-btn {
+  margin-top: 100px;
+}
+
+.signup-social {
+  position: absolute;
+  left: 15%;
+  top: -15px;
+}
+
+.signup-social a {
+  display: inline-block;
+  background: #fff;
+  padding: 10px 20px;
+  border: 1px solid #000;
+  color: #000;
+  border-radius: 10px;
+  width: 300px;
+  height: 50px;
+  line-height: 30px;
+  position: relative;
+  margin-right: 30px;
+}
+
+.signup-form-area {
+  margin-top: 50px;
+  padding-top: 80px;
+}
+
+.signup-social a i {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  background: #8fbee6;
+  width: 20px;
+  height: 20px;
+  font-size: 15px;
+  text-align: center;
+  line-height: 21px;
+  border-radius: 20px;
+}
+/* sign up form end */
+
+/*  404 page css */
+.breadcrumb-area {
+  background: #f1d500;
+  padding: 100px 0;
+}
+
+.no-found-area h2 {
+  color: #11122f;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+
+.no-found-area {
+  color: #000;
+}
+
+.no-found-area ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.no-found-area li {
+  display: inline-block;
+}
+
+.no-found-area li a {
+  display: block;
+  color: #000;
+  padding: 0px 12px;
+  border-right: 1px solid #ddd;
+}
+
+.no-found-area li:last-child a {
+  border: none;
+}
+.no-found-area .boxed-btn {
+  margin-top: 50px;
+}
+/* 404 page css end */
+
+/* cloud page css start */
+.cloud-banner-bottom-img {
+  position: absolute;
+  left: 10%;
+  bottom: -50px;
+  width: 80%;
+  z-index: 1;
+  margin: 0 auto;
+}
+.banner-area.cloud-page {
+  padding: 250px 0 200px;
+}
+.cloud-trial {
+  position: relative;
+  z-index: 3;
+}
+.cloud-page .border-btn {
+  padding: 10px 40px;
+}
+/* cloud page css end */
+
+/* Cloud Pricing area CSS Start */
+.single-pricing-box.cloude-pricing {
+  float: left;
+  width: 31%;
+  margin: 0 1%;
+}
+.cloud-single-pricing-wrap {
+  background: #8fbee6;
+  width: 100%;
+  min-height: 620px;
+  border-radius: 4px;
+}
+
+.single-pricing-box.cloude-pricing {
+  border: 3px solid #fff;
+  margin-top: 40px;
+}
+
+.nav.nav-tabs a:first-child,
+.nav.nav-tabs a:last-child {
+  background: #8fbee6;
+  color: #fff;
+  width: calc(50% - 10px);
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: right;
+  padding: 20px 40px;
+  border-top-left-radius: 50px;
+  margin-left: 10px;
+}
+.nav.nav-tabs a:first-child {
+  margin-left: 0;
+  margin-right: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 50px;
+  text-align: left;
+}
+
+.nav.nav-tabs a.active {
+  background-color: #11122e;
+}
+/* Cloud Pricing area CSS End */
+
+/* cloud pricing bottom css stat */
+
+.cloud-icon-left img {
+  width: 80px;
+  height: 80px;
+  background: #f1d500;
+  padding: 15px;
+  border-radius: 20px;
+  left: 0;
+}
+
+.single-cloud-icon {
+  padding: 30px;
+}
+
+section.pricing-bottom {
+  padding: 50px 0;
+}
+
+.cloud-icon-left {
+  float: left;
+}
+
+.cloud-icon-text {
+  padding-left: 100px;
+  padding-top: 20px;
+}
+
+.cloud-btm h2 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.cloud-btm img {
+  width: 300px;
+  margin: 20px 0;
+}
+/* cloud pricing bottom css end */
+
+/* CLoud feature CSS Start */
+.cloud-feature-area {
+  background: #11122e;
+  padding: 100px 0;
+}
+.single-cloud-feature {
+  color: #fff;
+  padding: 30px 0;
+}
+
+.single-cloud-feature p {
+  margin-top: 30px;
+}
+
+.single-cloud-feature img {
+  width: 80px;
+}
+
+.cloud-feature2 h2 {
+  font-size: 50px;
+}
+
+.cloud-feature2 img {
+  width: 200px;
+}
+
+.cloud-feature2 .row {
+  margin: 30px 0;
+}
+/* CLoud feature CSS End  */
+
+/* microsoft banner css Start */
+.microsoft-banner-bottom-img {
+  position: absolute;
+  left: 300px;
+  top: 400px;
+  width: 700px;
+  z-index: 1;
+  height: 500px;
+  margin: 0 auto;
+}
+.mt-200 {
+  margin-top: 200px;
+}
+/* microsoft banner css End */
+
+/* Microsoft Pricing */
+.cloud-single-pricing-wrap.color2 {
+  background-color: #11122f;
+}
+.single-pricing-box.cloude-pricing h3 span {
+  display: block;
+  font-size: 75%;
+  color: #000;
+}
+
+/* Microsoft Pricing */
+
+/* support apps area */
+.support-apps-area {
+  padding: 0 50px;
+  margin-top: -100px;
+  position: relative;
+  z-index: 2;
+}
+
+.dark-blue-color {
+  background: #11122f;
+  padding: 50px 50px;
+  padding-bottom: 100px;
+}
+
+.single-support-app h4 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.single-support-app img {
+  display: block;
+  color: #fff;
+}
+
+.apps-sep,
+.apps-sep img {
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+.single-support-app p {
+  color: #fff;
+  margin: 5px 0;
+  text-align: center;
+  font-size: 14px;
+}
+
+.single-support-app img {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 50px;
+}
+
+.dark-blue-color .col-md-4::after {
+  position: absolute;
+  content: '';
+  right: 0;
+  top: 100px;
+  width: 1px;
+  height: 100%;
+  background: #666;
+}
+.dark-blue-color .col-md-4:last-child::after {
+  display: none;
+}
+.home-page .single-support-app p {
+  color: #11122f;
+  font-size: 18px;
+}
+.home-page .single-support-app img {
+  max-width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+.home-page .single-support-app {
+  padding: 0 50px;
+}
+.home-page.section-padding {
+  padding: 100px 0;
+}
