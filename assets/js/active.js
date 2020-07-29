@@ -2,6 +2,19 @@
   'use strict';
 
   jQuery(document).ready(function ($) {
+    $('.banner-slide').owlCarousel({
+      items: 1,
+      margin: 0,
+      loop: true,
+      dots: true,
+      nav: false,
+      navText: [
+        "<i class='fa fa-angle-left'></i>",
+        "<i class='fa fa-angle-right'></i>",
+      ],
+      autoplay: true,
+    });
+
     /*==============================
       Slick Nav
     ================================*/

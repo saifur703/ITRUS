@@ -185,6 +185,7 @@
 
 	.banner-area.domain-page {
 		background-size: cover;
+		padding-top: 0;
 	}
 
 	.banner-btn-text form {
@@ -215,6 +216,7 @@
 	.single-pricing-box.cloude-pricing {
 		float: none;
 		width: auto;
+		margin-top: 0;
 	}
 
 	.cloud-btm h2 {
@@ -277,6 +279,15 @@
 		margin-top: 0;
 	}
 
+	.single-banner-slide {
+		padding-top: 0;
+		background-size: cover;
+	}
+
+	.banner-area.homepage::after {
+		width: 300px;
+		bottom: -100px;
+	}
 }
 
 
