@@ -192,10 +192,42 @@ p {
 /* Banner CSS Start */
 .banner-area {
   position: relative;
+  z-index: 9;
+}
+
+.banner-area.homepage::after {
+  position: absolute;
+  content: '';
+  right: 0;
+  bottom: -150px;
+  width: 600px;
+  height: 600px;
+  background: url('assets/img/server.png') no-repeat scroll left center / 100%;
   z-index: 1;
-  background: url('assets/img/banner-bg.png') no-repeat scroll left center / 100%;
+}
+
+.slide-bg1 {
+  background-image: url('assets/img/banner-bg.png');
+}
+
+.slide-bg2 {
+  background-image: url('assets/img/banner-bg.png');
+}
+
+.slide-bg3 {
+  background-image: url('assets/img/banner-bg.png');
+}
+
+.single-banner-slide {
   padding-top: 250px;
   padding-bottom: 200px;
+  position: relative;
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 100%;
+  position: relative;
+  z-index: 5;
 }
 
 .banner-area.domain-page::before {
@@ -261,7 +293,7 @@ p {
   right: 0;
   bottom: -100px;
   width: 50%;
-  z-index: 1;
+  z-index: -1;
 }
 
 .banner-left-img {
@@ -952,7 +984,8 @@ meter[value='4']::-moz-meter-bar {
   margin: 0 auto;
 }
 
-.banner-area.cloud-page {
+.banner-area.cloud-page,
+.banner-area.domain-page {
   padding: 250px 0 200px;
 }
 
@@ -963,6 +996,14 @@ meter[value='4']::-moz-meter-bar {
 
 .cloud-page .border-btn {
   padding: 10px 40px;
+}
+
+.cloud-page {
+  background: url('assets/img/banner-bg.png') no-repeat scroll left center / 100%;
+}
+
+.domain-page {
+  background: url('assets/img/banner-bg.png') no-repeat scroll left center / 100%;
 }
 
 /* cloud page css end */
@@ -1205,4 +1246,51 @@ section.pricing-bottom {
 .slicknav_menu li a {
   text-transform: uppercase;
   font-size: 18px;
+}
+
+.owl-nav div {
+  position: absolute;
+  left: 50px;
+  top: 50%;
+  width: 40px;
+  height: 40px;
+  margin-top: -20px;
+  background: #11122f;
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  border-radius: 2px;
+}
+
+.owl-nav .owl-next {
+  left: auto;
+  right: 50px;
+}
+
+.owl-nav div:hover {
+  color: #f1d500
+}
+
+.owl-dots div {
+  width: 20px;
+  height: 20px;
+  background: #000032;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 0 5px;
+  margin-top: -50px;
+}
+
+.owl-dots {
+  text-align: center;
+}
+
+.owl-dots .owl-dot.active {
+  background-color: #f1d500;
+}
+
+.header-right-bottom {
+  position: fixed;
+  width: 75%;
 }
